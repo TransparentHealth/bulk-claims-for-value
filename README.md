@@ -1,12 +1,12 @@
 Bulk Claims for Value Based Care
 --------------------------------
 
-This is a public respository decribing the "Bulk Claims for Value Based Care" initiave in North Carolina.  Its is overseen by the "Duke-Margolis Center for Health Policy". This repository is public. It contains non-sensitive, non-proprietary information about the project such as links to relevant standards and sample data.  All project particicpants may contribute to this respoitory or its wiki. You can do one or more of the following.
+This is a public repository describing the "Bulk Claims for Value Based Care" initiative in North Carolina.  Its is overseen by the "Duke-Margolis Center for Health Policy". This repository is public. It contains non-sensitive, non-proprietary information about the project such as links to relevant standards and sample data.  All project participants may contribute to this repository or its wiki. You can do one or more of the following.
 
 * Ask for write access
 * Create an issue
 * Create a pull request
-* Ask to have content added or deleted.
+* Ask to have content added or deleted
 
 
 Objectives
@@ -51,4 +51,4 @@ Participants
 * Blue Cross Blue Shield of North Carolina
 * NC Department of Health and Humans Services
 * AmeriHealth Caritas
-* Optum
+* Optum/United Healthcare
