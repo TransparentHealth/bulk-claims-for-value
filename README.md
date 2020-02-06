@@ -27,12 +27,12 @@ Dignosis\conditions and comorbidities are the most common\important data element
 
 | Risk Statification Model                | Elements in CPCDS?  | Key Elements                | Links  |
 | --------------------------------------- |:-------------------:| ---------------------------:| ------:|
-| Hierarchical Condition Categories (HCCs)| Yes                 | Diagnosis, ICD10, HCPCS, CPT | https://www.cms.gov/Medicare/Health-Plans/MedicareAdvtgSpecRateStats/Risk-Adjustors.html |
-| Adjusted Clinical Groups (ACG)          | ?                   | Diagnosis ICD10, etc.   | https://www.hopkinsacg.org/ |
-| Chronic Comorbidity Count (CCC)         | Yes                 | Diagnosis ICD10, etc.   | https://www.ncbi.nlm.nih.gov/pubmed/21473661 |
-| Elder Risk Assessment (ERA)             | Yes                 | Diagnosis, age, gender, marital status, number of hospital days over the prior two years, and selected comorbid medical illness  |  https://www.ncbi.nlm.nih.gov/pubmed/21441764 |
-| Minnesota Tiering (MN)                  | ?                   | Diagnosis ICD10, etc.    | https://www.health.state.mn.us/facilities/hchomes/legreport/docs/hch2016report.pdf |
-| Charlson Comorbidity Measure            | ?                   | Diagnosis ICD10, etc.    | https://www.sciencedirect.com/science/article/pii/0021968187901718 | 
+| Hierarchical Condition Categories (HCCs)| Yes                 | Diagnosis/Conditions | https://www.cms.gov/Medicare/Health-Plans/MedicareAdvtgSpecRateStats/Risk-Adjustors.html |
+| Adjusted Clinical Groups (ACG)          | ?                   | Diagnosis/Conditions  | https://www.hopkinsacg.org/ |
+| Chronic Comorbidity Count (CCC)         | Yes                 | Diagnosis/Conditions   | https://www.ncbi.nlm.nih.gov/pubmed/21473661 |
+| Elder Risk Assessment (ERA)             | Yes                 | Diagnosis/conditions, age, gender, marital status, number of hospital days over the prior two years, and selected comorbid medical illness  |  https://www.ncbi.nlm.nih.gov/pubmed/21441764 |
+| Minnesota Tiering (MN)                  | ?                   | Diagnosis/Conditions    | https://www.health.state.mn.us/facilities/hchomes/legreport/docs/hch2016report.pdf |
+| Charlson Comorbidity Measure            | ?                   | Diagnosis/Conditions    | https://www.sciencedirect.com/science/article/pii/0021968187901718 | 
 
 
 Sample Data
