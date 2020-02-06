@@ -18,14 +18,29 @@ Objectives
 Ongoing Work
 ------------
 
-* Identify exactly what fields are needed. Are the needed fields already covered in an existing profile such as CARIN BB?
+* Identify exactly what fields are needed for risk stratification models.
+
+Dignosis\conditions and comorbidities are the most common\important data elements used in most risk stratification models. Age, gender(sex), maritial status, and other demographic data are also used in some models. 
+
+* Answer this question. Are fields needed for risk stratification already covered in the CPCDS format and corresponding FHIR profile? Use the table below to support your answer.
+
+
+| Risk Statification Model                | Elements in CPCDS?  | Key Elements                | Links  |
+| --------------------------------------- |:-------------------:| ---------------------------:| ------:|
+| Hierarchical Condition Categories (HCCs)| Yes                 | Diagnosis, ICD10, HCPCS, CPT | https://www.cms.gov/Medicare/Health-Plans/MedicareAdvtgSpecRateStats/Risk-Adjustors.html |
+| Adjusted Clinical Groups (ACG)          | ?                   | Diagnosis ICD10, etc.   | https://www.hopkinsacg.org/ |
+| Chronic Comorbidity Count (CCC)         | Yes                 | Diagnosis ICD10, etc.   | https://www.ncbi.nlm.nih.gov/pubmed/21473661 |
+| Elder Risk Assessment (ERA)             | Yes                 |  Age, gender, marital status, number of hospital days over the prior two years, and selected comorbid medical illness  |  https://www.ncbi.nlm.nih.gov/pubmed/21441764 |
+| Minnesota Tiering (MN)                  | ?                   | ?                 | https://www.health.state.mn.us/facilities/hchomes/legreport/docs/hch2016report.pdf |
+| Charlson Comorbidity Measure            | ?                   | ?                 | https://www.sciencedirect.com/science/article/pii/0021968187901718 | 
+
 
 Sample Data
 -----------
 
 * 100 Patients in North Carolina. https://videntityshare.s3.amazonaws.com/nc-samples-100.zip (includes CPCDS csv and Bulk FHIR output.)
 
-We will continue to improve the sample data to make it as complete and realistic as possible. Check back here for updates.
+We will continue to improve the sample data to make it as complete and realistic as possible. If you encounter any issues or wnat the data adjusted please reach out.  Check back here for updates / additional data samples.
 
 
 Links to Relevant Technical Documentation
