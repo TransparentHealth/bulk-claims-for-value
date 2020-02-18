@@ -33,7 +33,7 @@ Dignosis\conditions and comorbidities are the most common\important data element
 | Elder Risk Assessment (ERA)             | ?                   | Diagnosis/conditions, age, gender, marital status, number of hospital days over the prior two years, and selected comorbid medical illness  |  https://www.ncbi.nlm.nih.gov/pubmed/21441764 |
 | Minnesota Tiering (MN)                  | ?                   | Diagnosis/Conditions    | https://www.health.state.mn.us/facilities/hchomes/legreport/docs/hch2016report.pdf |
 | Charlson Comorbidity Measure            | ?                   | Diagnosis/Conditions    | https://www.sciencedirect.com/science/article/pii/0021968187901718 | 
-
+|Vermont Blueprint for Health|?|Diagnosis/Conditions| https://blueprintforhealth.vermont.gov/|
 
 Sample Data
 -----------
