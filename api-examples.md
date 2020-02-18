@@ -30,8 +30,7 @@ Get all patient, claim, and coverage data from S3.
 
 Get all patient, claim, and coverage data from SFTP (same data bucket as S3).
 
-Please note that any SFTP client can be used.  This server does not support passwords.  It instead relies on RSA keys.
-Place the RSA key into a text file called `sftp-priv.key` before trying out the following sftp commands. 
+Please note that any SFTP client can be used. The SFTP hostname is `s-992885016a6f47159.server.transfer.us-east-1.amazonaws.com` and the sample username is `unc-health-care`. This server does not support passwords.  It instead relies on RSA keys.Place the RSA key into a text file called `sftp-priv.key` before trying out the following sftp commands. 
 Please ask me for the sample private key.
 
 
@@ -83,25 +82,29 @@ Get all claims in NDJSON FHIR format for patient with the Patient FHIR id of `a3
 
 
 OAuth2 Examples
-```````````````
+---------------
 
 Supply the Oauth2 Bearer token `sample-token-abababdfdf123dfcbc` in the header.
 
 
-Get all Claims of a particular condition of Childhood Asthma (SNOMED CODE 233678006) as FHIR JSON
-
+Get all Claims of a particular condition of Childhood Asthma (SNOMED CODE 233678006) as FHIR JSON:
 
     curl -H "Authorization: Bearer sample-token-abababdfdf123dfcbc" "https://bulk-claims-api.transparenthealth.org/djm/read/api/oauth2/duke-margolis-bulk-claims/Condition-fhir/Condition.json?code.coding.code=233678006"
 
 
-Get same as Bulk FHIR (NDJSON)
+Get same as Bulk FHIR (NDJSON):
 
 
     curl -H "Authorization: Bearer sample-token-abababdfdf123dfcbc" "https://bulk-claims-api.transparenthealth.org/djm/read/api/oauth2/duke-margolis-bulk-claims/Condition-fhir/Condition.ndjson?code.coding.code=233678006"
 
 
-Get all claims of a particilar condition of hypertension as as a CPCDS CSV
+Get all claims of with the particilar condition of hypertension as a CPCDS CSV:
 
 
     curl -H "Authorization: Bearer sample-token-abababdfdf123dfcbc" "https://bulk-claims-api.transparenthealth.org/djm/read/api/public/duke-margolis-bulk-claims/CPCDS_Claims-csv/claims.csv?Diagnosis_code=59621000"
+    
+    
+    
+    
+
  
