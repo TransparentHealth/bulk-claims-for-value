@@ -7,8 +7,9 @@ These APIs are created for illustration and discussion purposes.  The data they 
 For easy of evaluation, some APIs do not require authentication. A production implemenation would require authentication. 
 APIs requiring authentication will indicate so.
 
-There are two flavors of APIs here.
+The command-line tool web client `curl` is used an exampple, but you could also use Postman, or just a web browser instead.  The command line tool `sftp` is also used an example, but any SFTP client should work.  `curl` and `sftp` will already be installed on most MacOS and Linux systems.
 
+There are two flavors of APIs here.
 
 1. Static Content APIs  - information is sitting on a SFTP and/or S3 content-delivery network.  There is no database.
 2. Dynamic Content APs   - Data may be queried.  A database is used in the background to process queries and respond to API requests.
