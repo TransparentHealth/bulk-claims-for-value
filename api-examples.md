@@ -37,7 +37,7 @@ Please ask me for the sample private key.
     sftp -i ./sftp-priv.key unc-health-care@s-992885016a6f47159.server.transfer.us-east-1.amazonaws.com
 
 
-Followed By the SFTP commands for downloading...
+Followed by the SFTP commands for downloading...
 
 
     get Wellcare/latest/Patient.ndjson
