@@ -11,8 +11,8 @@ The command-line tool web client `curl` is used an exampple, but you could also 
 
 There are two flavors of APIs here.
 
-1. Static Content APIs  - information is sitting on a SFTP and/or S3 content-delivery network.  There is no database.
-2. Dynamic Content APs   - Data may be queried.  A database is used in the background to process queries and respond to API requests.
+1. Static Content APIs - information is sitting on a SFTP and/or S3 content-delivery network.  There is no database.
+2. Dynamic Content APs - Data may be queried.  A database is used in the background to process queries and respond to API requests.
 
 
 Static Content APIs
@@ -31,7 +31,7 @@ Get all patient, claim, and coverage data from S3.
 
 Get all patient, claim, and coverage data from SFTP (same data bucket as S3).
 
-Please note that any SFTP client can be used. The SFTP hostname is `s-992885016a6f47159.server.transfer.us-east-1.amazonaws.com` and the sample username is `unc-health-care`. This server does not support passwords.  It instead relies on RSA keys.Place the RSA key into a text file called `sftp-priv.key` before trying out the following sftp commands. 
+Please note that any SFTP client can be used. The SFTP hostname is `s-992885016a6f47159.server.transfer.us-east-1.amazonaws.com` and the sample username is `unc-health-care`. This server does not support passwords. Instead it relies on RSA keys. Place the RSA key into a text file called `sftp-priv.key` before trying out the following sftp commands. 
 Please ask me for the sample private key.
 
 
@@ -73,7 +73,7 @@ Get all patients in Durham County as a JSON
 Get all patients in Durham County as a NDJSON (Not FHIR)
 
 
-    curl https://bulk-claims-api.transparenthealth.org/djm/read/api/public/duke-margolis-bulk-claims/CPCDS_Patients-csv/Patients.csv?County=Durham%20County
+    curl https://bulk-claims-api.transparenthealth.org/djm/read/api/public/duke-margolis-bulk-claims/CPCDS_Patients-csv/Patients.ndjson?County=Durham%20County
 
 
 Get all claims in NDJSON FHIR format for patient with the Patient FHIR id of `a39e3c49-a036-485c-aad8-5f1589b23a86`.
