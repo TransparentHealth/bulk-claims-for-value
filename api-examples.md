@@ -4,10 +4,9 @@ API Examples
 
 These APIs are created for illustration and discussion purposes.  The data they serve is the synthetic data presented in README.
 
-For easy of evaluation, some APIs do not require authentication. A production implemenation would require authentication. 
-APIs requiring authentication will indicate so.
+For ease of evaluation, the APIs do not require authentication (are public). For the use cases described here, a production implementation **would** require authentication. OAuth2 examples, which use an `access_token` are illustrated at the bottom.
 
-The command-line tool web client `curl` is used an exampple, but you could also use Postman, or just a web browser instead.  The command line tool `sftp` is also used an example, but any SFTP client should work.  `curl` and `sftp` will already be installed on most MacOS and Linux systems.
+The command-line tool web client `curl` is used an exampple, but you could instead use Postman, or just a web browser.  The command line tool `sftp` is also used as an example, but any SFTP client should work.  `curl` and `sftp` will already be installed on most MacOS and Linux systems and many equivilents exist for Microsoft Windows.
 
 There are two flavors of APIs here.
 
