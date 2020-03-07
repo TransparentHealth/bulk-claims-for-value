@@ -40,7 +40,7 @@ Sample Data
 
 * 100 Patients in North Carolina. https://videntityshare.s3.amazonaws.com/nc-samples-100.zip (includes CPCDS csv and Bulk FHIR output.)
 
-We will continue to improve the sample data to make it as complete and realistic as possible. If you encounter any issues or wnat the data adjusted please reach out.  Check back here for updates / additional data samples.
+We will continue to improve the sample data to make it as complete and realistic as possible. If you encounter any issues or want the data adjusted please reach out.  Check back here for updates / additional data samples.
 
 
 Links to Relevant Technical Documentation
