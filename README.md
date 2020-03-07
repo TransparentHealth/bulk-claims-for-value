@@ -64,6 +64,6 @@ Participants
 * UNC Health Care
 * Wellcare/Centene
 * Blue Cross Blue Shield of North Carolina
-* NC Department of Health and Humans Services
+* NC Department of Health and Human Services
 * AmeriHealth Caritas
 * Optum/United Healthcare
