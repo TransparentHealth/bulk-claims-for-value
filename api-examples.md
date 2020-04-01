@@ -105,7 +105,7 @@ Get all patients in Durham County as a NDJSON (Not FHIR)
 Get all claims in NDJSON FHIR format for patient with the Patient FHIR id of `a39e3c49-a036-485c-aad8-5f1589b23a86`.
 
 
-    curl https://bulk-claims-api.transparenthealth.org/djm/read/api/custom/public/patient-claim?---patient-fhir-id---=a39e3c49-a036-485c-aad8-5f1589b23a86
+    curl https://nc.oauth2.org/djm/read/api/custom/public/patient-claim?---patient-fhir-id---=a39e3c49-a036-485c-aad8-5f1589b23a86
 
 
 OAuth2 Examples
