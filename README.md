@@ -1,12 +1,7 @@
 Bulk Claims for Value Based Care
 --------------------------------
 
-This is a public repository describing the "Bulk Claims for Value Based Care" initiative in North Carolina.  Its is overseen by the "Duke-Margolis Center for Health Policy". This repository is public. It contains non-sensitive, non-proprietary information about the project such as links to relevant standards and sample data.  All project participants may contribute to this repository or its wiki. You can do one or more of the following.
-
-* Ask for write access
-* Create an issue
-* Create a pull request
-* Ask to have content added or deleted
+This is a public repository describing the "Bulk Claims for Value Based Care" initiative in North Carolina.  Its is overseen by the "Duke-Margolis Center for Health Policy". This public repository contains general information about the project such as links to relevant standards and sample data.  All project participants may contribute to this repository or its wiki. See CONTRIBUTING.MD for more details. 
 
 
 Objectives
@@ -25,15 +20,15 @@ Dignosis\conditions and comorbidities are the most common\important data element
 * Answer this question. Are fields needed for risk stratification already covered in the CPCDS format and corresponding FHIR profile? Use the table below to support your answer.
 
 
-| Risk Statification Model                | Elements in CPCDS?  | Key Elements                | Links  |
-| --------------------------------------- |:-------------------:| ---------------------------:| ------:|
-| Hierarchical Condition Categories (HCCs)| ?                   | Diagnosis/Conditions | https://www.cms.gov/Medicare/Health-Plans/MedicareAdvtgSpecRateStats/Risk-Adjustors.html |
-| Adjusted Clinical Groups (ACG)          | ?                   | Diagnosis/Conditions  | https://www.hopkinsacg.org/ |
-| Chronic Comorbidity Count (CCC)         | ?                   | Diagnosis/Conditions   | https://www.ncbi.nlm.nih.gov/pubmed/21473661 |
-| Elder Risk Assessment (ERA)             | ?                   | Diagnosis/conditions, age, gender, marital status, number of hospital days over the prior two years, and selected comorbid medical illness  |  https://www.ncbi.nlm.nih.gov/pubmed/21441764 |
-| Minnesota Tiering (MN)                  | ?                   | Diagnosis/Conditions    | https://www.health.state.mn.us/facilities/hchomes/legreport/docs/hch2016report.pdf |
-| Charlson Comorbidity Measure            | ?                   | Diagnosis/Conditions    | https://www.sciencedirect.com/science/article/pii/0021968187901718 | 
-|Vermont Blueprint for Health|?|Diagnosis/Conditions| https://blueprintforhealth.vermont.gov/|
+| Risk Statification Model                | Key Elements                | Links  |
+| --------------------------------------- | ---------------------------:| ------:|
+| Hierarchical Condition Categories (HCCs)| Diagnosis/Conditions | https://www.cms.gov/Medicare/Health-Plans/MedicareAdvtgSpecRateStats/Risk-Adjustors.html |
+| Adjusted Clinical Groups (ACG)          | Diagnosis/Conditions  | https://www.hopkinsacg.org/ |
+| Chronic Comorbidity Count (CCC)         | Diagnosis/Conditions   | https://www.ncbi.nlm.nih.gov/pubmed/21473661 |
+| Elder Risk Assessment (ERA)             | Diagnosis/conditions, age, gender, marital status, number of hospital days over the prior two years, and selected comorbid medical illness  |  https://www.ncbi.nlm.nih.gov/pubmed/21441764 |
+| Minnesota Tiering (MN)                  | Diagnosis/Conditions    | https://www.health.state.mn.us/facilities/hchomes/legreport/docs/hch2016report.pdf |
+| Charlson Comorbidity Measure            | Diagnosis/Conditions    | https://www.sciencedirect.com/science/article/pii/0021968187901718 | 
+|Vermont Blueprint for Health|Diagnosis/Conditions| https://blueprintforhealth.vermont.gov/|
 
 Sample Data
 -----------
@@ -59,11 +54,12 @@ Links to Relevant Technical Documentation
 Participants
 ------------
 
-* Duke Health
-* Duke Margolis Center for Health Policy
+The Duke-Margolis Center for Health Policy functions as convener of participants. The participants are:
+
 * UNC Health Care
 * Wellcare/Centene
 * Blue Cross Blue Shield of North Carolina
-* NC Department of Health and Human Services
+* North Carolina Department of Health and Human Services
 * AmeriHealth Caritas
 * Optum/United Healthcare
+* Duke Health
